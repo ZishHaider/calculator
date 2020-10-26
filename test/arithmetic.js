@@ -20,7 +20,7 @@ describe('Arithmetic', function() {
       request.get('/arithmetic?operation=add&operand2=21')
           .expect(400)
           .end(function(err, res) {
-              expect(res.body).to.eql({ error: "Invalid operand1: undefined" });
+              expect(res.body).to.eql({ error: "invalid operand1: undefined" });
               done();
           });
     });
