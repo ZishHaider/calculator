@@ -9,6 +9,8 @@ and chai.  The `mocha-junit-reporters` package is included to provide XML
 output that can be presented in a continuous integration tool like
 [Azure DevOps](https://azure.com/devops).
 
+[![Build Status](https://dev.azure.com/zhaider2k14cal/Calculator%20project/_apis/build/status/ZishHaider.calculator%20(1)?branchName=master)](https://dev.azure.com/zhaider2k14cal/Calculator%20project/_build/latest?definitionId=2&branchName=master)
+
 To build, simply:
 
 1. Runs `npm install` to install dependencies.
